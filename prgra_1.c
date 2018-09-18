@@ -38,11 +38,11 @@ void main(){
   printf("u. %d \n", c1);
   printf("v. %d \n", c1-c2+c3);
   printf("w. %d \n", c2 - 2);
-  printf("x. %d \n", c2 + "2");
-  printf("y. %d \n", c3 + "#");
-  // printf("z. %d \n", a%c);
-  // printf("aa. %d \n", a*b/c);
-  // printf("bb. %d \n", a*(b/c));
-  // printf("cc. %d \n", (a*b)%b);
-  // printf("dd. %d \n \n", a * ( c % b ));
+  printf("x. %d \n", c2 + 50); // 2 = 50
+  printf("y. %d \n", c3 + 35); // # = 35
+  printf("z. %d \n", c1 % c3);
+  printf("aa. %d \n", (c1/c2)*c3);
+  printf("bb. %d \n", 3 * c2);
+  printf("cc. %d \n", 51 * c2); // 3 = 51
+  printf("dd. %d \n \n", c2 * 63); //? = 63
 }
