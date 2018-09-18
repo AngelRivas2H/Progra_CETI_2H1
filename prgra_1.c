@@ -32,9 +32,9 @@ void main(){
   printf("s. %g \n \n", (14*y)+c);
   // printf("t. %g \n",  c * ( x % y )); Mi compilador no lo asimila porque ambos son float
   printf("Grupo de ejercicios 3 \n \n");
-  char c1 = "E";
+  char c1 = 69; //E = 69
   char c2 = 5;
-  char c3 = "?";
+  char c3 = 63; //? = 63
   printf("u. %d \n", c1);
   printf("v. %d \n", c1-c2+c3);
   printf("w. %d \n", c2 - 2);
@@ -45,4 +45,21 @@ void main(){
   printf("bb. %d \n", 3 * c2);
   printf("cc. %d \n", 51 * c2); // 3 = 51
   printf("dd. %d \n \n", c2 * 63); //? = 63
+  printf("Grupo de ejercicios 3 \n \n");
+  int ii = 33;
+  int jj = 22;
+  int xx = 5;
+  int yy = 10;
+  int cc = 12;
+  int dd = 99;
+  // printf("u. %d \n", c1);
+  // printf("v. %d \n", c1-c2+c3);
+  // printf("w. %d \n", c2 - 2);
+  // printf("x. %d \n", c2 + 50); // 2 = 50
+  // printf("y. %d \n", c3 + 35); // # = 35
+  // printf("z. %d \n", c1 % c3);
+  // printf("aa. %d \n", (c1/c2)*c3);
+  // printf("bb. %d \n", 3 * c2);
+  // printf("cc. %d \n", 51 * c2); // 3 = 51
+  // printf("dd. %d \n \n", c2 * 63); //? = 63
 }
