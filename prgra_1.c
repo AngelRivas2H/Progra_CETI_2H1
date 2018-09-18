@@ -24,14 +24,21 @@ void main(){
   printf("k. %g \n", x+y+z);
   printf("l. %g \n", 2 * y + 3*(x*z));
   printf("m. %g \n", x/y);
-  // printf("n. %g \n", x % y); Mi compilador no lo asimila porque ambos son float
+  // printf("n. %g \n", x % y); Mi compilador no lo asimila porque ambos son floats
   printf("o. %g \n", x/(y+z));
   printf("p. %g \n", (x/y)+z);
   printf("q. %g \n", 2*x/3*y);
   printf("r. %g \n", 2*x/(3*y));
   printf("s. %g \n \n", (14*y)+c);
-  // printf("t. %g \n",  c * ( x % y )); Mi compilador no lo asimila porque ambos son float
+  // printf("t. %g \n",  c * ( x % y )); Mi compilador no lo asimila porque ambos son floats
   printf("Grupo de ejercicios 3 \n \n");
+/*
+NOTA
+- Las dos lineas que no reconoce mi compilador
+- es porque los dos numeros que tenemos aun lado del %
+- son float, y eso, al menos en los dos compiladores que lo intente
+- no funciono, pero si se hace con calculadora, si funciona
+*/
   char c1 = 69; //E = 69
   char c2 = 5;
   char c3 = 63; //? = 63
