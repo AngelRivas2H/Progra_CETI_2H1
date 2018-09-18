@@ -4,6 +4,7 @@ void main(){
   int a = 8;
   int b = 3;
   int c = -5;
+
   printf("OPERACIONES LOCAS DE PROGRA: \nBy: Angel Rivas \n \n");
   printf("Grupo de ejercicios 1 \n \n");
   printf("a. %d \n", a+b+c);
@@ -20,28 +21,28 @@ void main(){
   float x = 88;
   float y = 3.5;
   float z = -5.2;
-  printf("k. %d \n", x+y+z);
-  // printf("l. %d \n", 2*y+3(x*z));
-  // printf("m. %d \n", x/y);
-  // printf("n. %d \n", x%y);
-  // printf("o. %d \n", x/(y+z));
-  // printf("p. %d \n", (x/y)+z);
-  // printf("q. %d \n", 2*x/3*y);
-  // printf("r. %d \n", 2*x/(3*y));
-  // printf("s. %d \n", (14*y)+c);
-  // printf("t. %d \n", c*(x%y));
-  // printf("Grupo de ejercicios 3 \n \n");
-  // char c1 = "E";
-  // char c2 = "5";
-  // char c3 = "?";
-  // printf("k. %d \n", x+y+z);
-  // printf("l. %d \n", 2*b+3*(a-c));
-  // printf("m. %d \n", a/b);
-  // printf("n. %d \n", a%b);
-  // printf("o. %d \n", a/c);
-  // printf("p. %d \n", a%c);
-  // printf("q. %d \n", a*b/c);
-  // printf("r. %d \n", a*(b/c));
-  // printf("s. %d \n", (a*b)%b);
-  // printf("t. %d \n \n", a * ( c % b ));
+  printf("k. %g \n", x+y+z);
+  printf("l. %g \n", 2 * y + 3*(x*z));
+  printf("m. %g \n", x/y);
+  // printf("n. %g \n", x % y); Mi compilador no lo asimila porque ambos son float
+  printf("o. %g \n", x/(y+z));
+  printf("p. %g \n", (x/y)+z);
+  printf("q. %g \n", 2*x/3*y);
+  printf("r. %g \n", 2*x/(3*y));
+  printf("s. %g \n \n", (14*y)+c);
+  // printf("t. %g \n",  c * ( x % y )); Mi compilador no lo asimila porque ambos son float
+  printf("Grupo de ejercicios 3 \n \n");
+  char c1 = "E";
+  char c2 = 5;
+  char c3 = "?";
+  printf("u. %d \n", c1);
+  printf("v. %d \n", c1-c2+c3);
+  printf("w. %d \n", c2 - 2);
+  printf("x. %d \n", c2 + "2");
+  printf("y. %d \n", c3 + "#");
+  // printf("z. %d \n", a%c);
+  // printf("aa. %d \n", a*b/c);
+  // printf("bb. %d \n", a*(b/c));
+  // printf("cc. %d \n", (a*b)%b);
+  // printf("dd. %d \n \n", a * ( c % b ));
 }
