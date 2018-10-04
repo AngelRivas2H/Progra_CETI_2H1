@@ -1,28 +1,34 @@
 #include<stdio.h>
-#include<math.h>
 
 int main (){
   printf("================================ REDONDEADOR DE NUMEROS =================================\n");
   printf("=================================== By: Angel Rivas ====================================\n");
-  float f_num;
-  int i_type;
-  printf("Por favor introduce una cifra con decimales para ser redondeada. \nCifra: ");
-  scanf("%f",&f_num);
-  printf("A cuantos decimales desea redondear: \n1) 0\n2) 1\n3) 2\nElija un inciso: ");
-  scanf("%d", &i_type);
-  switch (i_type) {
-    case 1:
-    printf("El numero redondeado seria: %.0f", f_num);
-    break;
-    case 2:
-    printf("El numero redondeado seria: %.1f", f_num);
-    break;
-    case 3:
-    printf("El numero redondeado seria: %.2f", f_num);
-    break;
-    default:
-    printf("Elije una opcion valida");
-    break;
-  }
+  int i_millar, i_centena, i_decenas, i_unidad, i_cifra;
+
+  printf("Introduce las unidades de millar: ");
+  scanf("%d", &i_millar);
+  printf("Introduce las centenas: ");
+  scanf("%d", &i_centena);
+  printf("Introduce las decenas: ");
+  scanf("%d", &i_decenas);
+  printf("Introduce las unidades: ");
+  scanf("%d", &i_unidad);
+
+  i_cifra = (i_millar*1000)+(i_centena*100)+(i_decenas*10)+(i_unidad);
+
+  printf("Cifra original: %d\n", i_cifra );
+
+  if (i_decenas > 5) {
+    i_centena += 1;
+    i_decenas = 0;
+    i_unidad = 0;
+  }else if (i_decenas < 5) {
+    i_decenas = 0;
+    i_unidad = 0;
+  }/*Creo que tambien se tienen que redondear los millares en ciertas ocasiones, pero la instrucción dice muy claro
+  que redondeemos las sentenas*/
+  i_cifra = (i_millar*1000)+(i_centena*100)+(i_decenas*10)+(i_unidad);
+  printf("Cifra redondeada: %d\n", i_cifra );
+
   return 0;
 }
