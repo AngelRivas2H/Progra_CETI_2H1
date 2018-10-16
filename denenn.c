@@ -19,8 +19,7 @@ int main () {
      break;
      case 2:
        for(i_i=i_num_fin;i_i>=i_num_inicio;i_i-=i_num_contador){
-           printf("%d\n", i_5
-           59i);
+           printf("%d\n", i_i);
        }
      break;
      default:
